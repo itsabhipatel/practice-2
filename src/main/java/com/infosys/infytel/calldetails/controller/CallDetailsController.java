@@ -150,7 +150,7 @@ public class CallDetailsController {
 	public  String getCallDetails1()
 	{
 
-		return "Call Successfully S done";
+		return "Call Successfullydone";
 	}
 	
 	
