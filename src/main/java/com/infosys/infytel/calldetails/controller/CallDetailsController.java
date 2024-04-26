@@ -146,6 +146,12 @@ public class CallDetailsController {
 		Employee e=null;
 		System.out.println(e.getName());
 	}
+	@RequestMapping(value="/sp16",method=RequestMethod.GET)
+	public  String getCallDetails1()
+	{
+
+		return "Call Success";
+	}
 	
 	
 }
